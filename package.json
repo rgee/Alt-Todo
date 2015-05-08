@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A simple to-do list app to learn Alt",
   "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rgee/Alt-Todo.git"
+  },
   "dependencies": {
     "alt": "^0.16.4",
     "react": "^0.13.2"
