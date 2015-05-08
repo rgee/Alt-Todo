@@ -1,0 +1,19 @@
+{
+  "name": "alt-todo",
+  "version": "1.0.0",
+  "description": "A simple to-do list app to learn Alt",
+  "main": "server.js",
+  "dependencies": {
+    "alt": "^0.16.4",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "browserify": "^8.0.3",
+    "reactify": "^0.17.1" 
+  },
+  "scripts": {
+    "build": "browserify -t [reactify --es6] src/App.jsx > build/app.js"
+  },
+  "author": "Ryan Gee",
+  "license": "MIT"
+}
