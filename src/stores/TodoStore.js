@@ -4,7 +4,7 @@ const CompleteTodoStore = require('./CompleteTodoStore');
 
 class TodoStore {
 	constructor() {
-		this.todos = [];
+    this.todos = [];
     this.bindListeners({
       handleFetchTodos: TodoActions.FETCH_TODOS,
       handleNewTodo: TodoActions.CREATE_TODO,
@@ -14,7 +14,7 @@ class TodoStore {
     this.exportPublicMethods({
       getTodo: this.getTodo
     });
-	}
+  }
 
   getTodo(id) {
     const todos = this.getState().todos;
