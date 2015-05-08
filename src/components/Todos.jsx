@@ -31,7 +31,7 @@ class Todos extends React.Component {
     CompleteTodoStore.unListen(this.onChange);
   }
 
-	render() {
+  render() {
     const { complete, incomplete, pendingTodo } = this.state;
     return (
       <div className="Todos">
@@ -56,7 +56,7 @@ class Todos extends React.Component {
         </div>
       </div>
     );
-	}
+  }
 
   handleTextChange(e) {
     this.setState({ pendingTodo: e.target.value });
